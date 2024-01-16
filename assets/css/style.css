@@ -1,0 +1,190 @@
+html,
+body,
+#banner {
+	margin: 0;
+	transition: all 0.5s;
+}
+
+:root {
+	--main-color: #ffb900;
+	--bg-dark: #2b2b2d;
+	--bg-light: #f7f5f1;
+}
+
+html,
+body {
+	overflow-x: hidden !important;
+	width: 100% !important;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: 700;
+	font-family: 'Cardo', serif;
+}
+
+h1 {
+	font-size: 45px;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: 600;
+	color: var(--main-color);
+}
+
+h3 {
+	font-size: 26px;
+	font-weight: 800;
+}
+
+p {
+	font-size: 17px;
+	color: #777777;
+}
+
+.section {
+	padding: 80px 0;
+}
+
+.container {
+	width: 100%;
+	max-width: 1440px !important;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+/* /header/ */
+
+
+.nav {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+.nav>.nav-header {
+	flex: 0.95;
+	padding-left: 1rem;
+}
+
+.nav>.nav-header>.nav-title {
+	font-size: 22px;
+}
+
+.nav>.nav-list {
+	display: flex;
+	gap: 2rem;
+	margin-bottom: 0;
+}
+
+.nav>.nav-list>li {
+	list-style-type: none;
+}
+
+.nav>.nav-list>li a {
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: 500;
+	color: #fff;
+	transition: all 0.5s;
+}
+
+.active {
+	color: var(--main-color) !important;
+}
+
+.nav>.nav-list>li a:hover {
+	color: var(--main-color)
+}
+
+.nav>#nav-check {
+	display: none;
+}
+
+header {
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+	padding: 20px 0px;
+	background-color: #000;
+	border-bottom: 1px solid #fff;
+}
+
+.nav-title a {
+	text-decoration: none;
+	color: var(--main-color);
+}
+
+.nav-title a img {
+	max-width: 140px;
+}
+
+/* banner */
+
+.banner {
+	background-image: url(../images/banner.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 80vh;
+	position: relative;
+}
+
+.inner_banner {
+	position: absolute;
+	top: 40%;
+	transform: translate(-50%, -50%);
+	left: 25%;
+	margin: 0 auto;
+}
+
+.inner_banner h1 {
+	color: var(--main-color);
+	font-size: 40px;
+}
+
+.inner_banner h1 span {
+	font-size: 24px;
+}
+
+.form-control {
+	background-color: transparent;
+	color: #fff;
+}
+
+.form-control:focus {
+	background-color: unset;
+	border-color: #fff;
+	box-shadow: unset;
+	color: #fff;
+}
+
+::placeholder {
+	color: #6c757d !important;
+}
+
+ul.ul_footer {
+	list-style: none;
+	display: flex;
+	justify-content: end;
+}
+
+ul.ul_footer li {
+	margin-left: 20px;
+}
+
+ul.ul_footer li a {
+	text-decoration: none;
+	color: #000;
+}
+
+footer .row {
+	align-items: center;
+}
