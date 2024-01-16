@@ -4,12 +4,21 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Playing Guide</title>
-      <link rel="icon" href="./assets/images/fav_icon.png" type="image/x-icon">
+      <link rel="icon" href="./assets/images/tab_fav.png" type="image/x-icon">
       <link rel="stylesheet" href="./assets/css/bootstrap.css">
       <link rel="stylesheet" href="./assets/css/style.css">
       <link rel="stylesheet" href="./assets/css/responsive.css">
       <!-- font -->
       <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/all.css">
+            <!-- google font -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+            
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+            
    </head>
    <body>
       <!-- header -->
@@ -31,8 +40,8 @@
                </label>
             </div>
             <ul class="nav-list">
-               <li><a href="./index.html" class="active">Home</a></li>
-               <li><a href="./play.html">Playing Guide</a></li>
+               <li><a href="./index.html">Home</a></li>
+               <li><a href="./play.html"  class="active">Playing Guide</a></li>
                <li><a href="./contact.html">Contact Us</a></li>
             </ul>
          </nav>
@@ -56,7 +65,7 @@
             <div class="row">
                <div class="col">
                   <div class="play_inner_cls">
-                     <h2 class="mb-4 text-center">Getting Started</h2>
+                     <h2 class="mb-4">Getting Started</h2>
                      <h4>1.1 Download and Install</h4>
                      <p>Visit the App Store or Google Play Store.</p>
                      <p>Search for "TabVictor" and download the app.</p>
@@ -66,7 +75,7 @@
                      <p>Complete the registration process by providing necessary details.</p>
                   </div>
                   <div class="play_inner_cls">
-                     <h2 class="mb-4 text-center">Navigating the App</h2>
+                     <h2 class="mb-4">Navigating the App</h2>
                      <h4>2.1 Home Screen</h4>
                      <p>Explore the home screen to find featured matches, ongoing leagues, and upcoming events.</p>
                      <p>Check out personalized recommendations based on your preferences.</p>
@@ -75,7 +84,7 @@
                      <p>Select your preferred sport to view available matches.</p>
                   </div>
                   <div class="play_inner_cls">
-                     <h2 class="mb-4 text-center">Choosing a Match</h2>
+                     <h2 class="mb-4">Choosing a Match</h2>
                      <h4>3.1 Browse Matches</h4>
                      <p>Scroll through the list of matches for your chosen sport.</p>
                      <p>Check match details, teams, and player statistics.</p>
@@ -84,7 +93,7 @@
                      <p>Choose a contest that suits your preferences, such as entry fee and prize pool.</p>
                   </div>
                   <div class="play_inner_cls">
-                     <h2 class="mb-4 text-center">Building Your Fantasy Team</h2>
+                     <h2 class="mb-4">Building Your Fantasy Team</h2>
                      <h4>4.1 Drafting Players</h4>
                      <p>Use your virtual budget to draft a team of real players for the chosen match.</p>
                      <p>Pay attention to player positions, recent performances, and team dynamics.</p>
@@ -93,7 +102,7 @@
                      <p>Build a balanced team with a mix of star players and potential game-changers.</p>
                   </div>
                   <div class="play_inner_cls">
-                     <h2 class="mb-4 text-center"> Joining a League</h2>
+                     <h2 class="mb-4"> Joining a League</h2>
                      <h4>5.1 Public or Private Leagues</h4>
                      <p>Choose between public leagues for random opponents or private leagues to compete with friends.</p>
                      <p>Join existing leagues or create your own for a customized experience.</p>
@@ -101,13 +110,13 @@
                      <p>Check league settings, such as scoring rules and roster requirements, before joining.</p>
                   </div>
                   <div class="play_inner_cls">
-                     <h2 class="mb-4 text-center">Follow the Action</h2>
+                     <h2 class="mb-4">Follow the Action</h2>
                      <h4>6.1 Real-Time Updates</h4>
                      <p>Track your fantasy team's performance with real-time scoring updates during the live match.</p>
                      <p>Monitor player stats, milestones, and game-changing moments.</p>
                   </div>
                   <div class="play_inner_cls">
-                     <h2 class="mb-4 text-center">Celebrate Your Success</h2>
+                     <h2 class="mb-4">Celebrate Your Success</h2>
                      <h4>7.1 Claiming Prizes</h4>
                      <p>If your fantasy team performs well, you could win exciting prizes.</p>
                      <p>Learn how to claim your winnings through the app.</p>
@@ -117,7 +126,7 @@
          </div>
       </div>
       <!-- info -->
-      <div class="info section">
+      <div class="info section info_play">
          <div class="container">
             <div class="row">
                <div class="col">
@@ -127,35 +136,37 @@
          </div>
       </div>
       <!-- footer -->
-      <footer>
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-4 text-md-start">
-                  <div class="logo">
-                     <a href="./index.html">
-                     <img src="./assets/images/logo.png" alt="">
-                     </a>
-                  </div>
-               </div>
-               <div class="col-lg-8 text-md-end">
-                  <ul class="ul_footer">
-                     <li>
-                        <a href="./privacy.html">Privacy Policy</a>
-                     </li>
-                     <li>
-                        <a href="./terms.html">Terms and Conditions</a>
-                     </li>
-                  </ul>
-               </div>
-            </div>
+      <div class="footer_wrapper">
+         <footer class="section">
+             <div class="container">
+                 <div class="row">
+                     <div class=" col-12 text-center col-lg-4 text-lg-start">
+                         <div class="logo">
+                             <a href="./index.html">
+                                 <img src="./assets/images/logo.png" alt="">
+                             </a>
+                         </div>
+                     </div>
+                     <div class=" col-12 text-center  col-lg-8 text-lg-end">
+                         <ul class="ul_footer">
+                             <li>
+                                 <a href="./privacy.html">Privacy Policy</a>
+                             </li>
+                             <li>
+                                 <a href="./terms.html">Terms and Conditions</a>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </footer>
+         <!-- lower footer -->
+         <div class="lower_footer">
+             <div class="container">
+                 <p class="text-center mb-0 py-3">Copyright © All Rights Reserved WeCanSportBooks.com</p>
+             </div>
          </div>
-      </footer>
-      <!-- lower footer -->
-      <div class="lower_footer">
-         <div class="container">
-            <p class="text-center mb-0 py-5">Copyright © All Rights Reserved WeCanSportBooks.com</p>
-         </div>
-      </div>
+     </div>
       <script src="https://code.jquery.com/jquery-3.7.1.min.js"
          integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
       <script src="./assets/js/bootstrap.bundle.js"></script>

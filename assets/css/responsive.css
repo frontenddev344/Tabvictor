@@ -68,10 +68,22 @@
 	header {
 		padding: 0px 0px;
 	}
+	.inner_banner {
+		left: 32%;
+	}
+	ul.ul_footer {
+		justify-content: center;
+		margin-top: 20px;
+	}
 
 }
 
 @media (max-width: 767px) {
+	h2 {
+		font-size: 26px;
+		
+	}
+	
 
 	a.logo img {
 		max-width: 120px;
@@ -89,10 +101,37 @@
 		font-size: 22px;
 	}
 
+	.inner_banner {
+		left: 43%;
+	}
+	.rating_card_two .i_icon {
+		margin-left: 0px;
+	}
+	.rating_card_two {
+		display: block;
+		text-align: center;
+	}
+	.rating_card_two img {
+		max-width: 80px;
+		margin-top: 15px;
+	}
 }
 
 @media (max-width: 575px) {
 
-
+	.inner_banner h1 span {
+		font-size: 20px;
+	}
+	.inner_banner h1 {
+		font-size:26px;
+	}
+	.inner_banner {
+		left:50%;
+	}
+	ul.ul_footer 
+	{
+		display: block;
+		padding-left: 0;
+	}
 
 }
