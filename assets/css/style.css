@@ -331,3 +331,21 @@ border: 1px solid #000;
 .playing_guide.section h1 {
     margin-bottom: 20px;
 }
+
+form.form_banner .home_input {
+    padding: 15px 30px;
+}
+
+.rating_card p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    transition: all .9s ease;
+}
+.rating_card p:hover {
+    margin-top: 0;
+}
+
+.play_inner_cls p {
+    padding-left: 30px;
+}
