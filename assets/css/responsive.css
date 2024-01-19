@@ -115,6 +115,9 @@
 		max-width: 80px;
 		margin-top: 15px;
 	}
+	.inner_banner h1 {
+		font-size: 32px;
+	}
 }
 
 @media (max-width: 575px) {
