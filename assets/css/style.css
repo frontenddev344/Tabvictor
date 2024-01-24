@@ -414,7 +414,7 @@ form.form_banner .home_input {
 	height: 500px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: bottom;
+	background-position: center;
 	display: flex;
 	align-items: center;
 	position: relative;
