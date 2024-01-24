@@ -138,11 +138,11 @@ header {
 }
 
 .inner_banner {
-	position: absolute;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	left: 50%;
-	margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 26%;
+    margin: 0 auto;
 }
 
 .inner_banner h1 {
