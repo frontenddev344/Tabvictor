@@ -75,6 +75,10 @@
 		justify-content: center;
 		margin-top: 20px;
 	}
+	ul.ul_footer li a {
+		padding: 7px 0;
+		display: inline-block;
+	}
 
 }
 
