@@ -138,16 +138,18 @@ header {
 }
 
 .inner_banner {
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    left: 26%;
-    margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	left: 26%;
+	margin: 0 auto;
 }
 
 .inner_banner h1 {
 	color: var(--main-color);
 	font-size: 40px;
+	padding-bottom: 14px;
+	margin: 0;
 }
 
 .inner_banner h1 span {
@@ -161,12 +163,12 @@ header {
 
 .form-control:focus {
 	background-color: unset;
-    border-color: #ccc;
+	border-color: #ccc;
 	box-shadow: unset;
 	color: #fff;
 }
 
- form ::placeholder {
+form ::placeholder {
 	color: #fff !important;
 	text-transform: capitalize;
 }
@@ -190,162 +192,186 @@ ul.ul_footer li a {
 footer .row {
 	align-items: center;
 }
+
 footer .logo a img {
-    max-width: 140px;
+	max-width: 140px;
 }
+
 .get_app_btn {
-    text-align: center;
-    width: 200px;
-    text-transform: uppercase;
-    padding: 8px 0px;
-    color: #000;
-    background: #ffb900;
-    font-weight: 500;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    margin-top: 25px;
+	text-align: center;
+	width: 200px;
+	text-transform: uppercase;
+	padding: 8px 0px;
+	color: #000;
+	background: #ffb900;
+	font-weight: 500;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	margin-top: 25px;
 	cursor: pointer;
 	outline: unset;
 	transition: all 0.5s;
 }
-.get_app_btn:hover{
+
+.get_app_btn:hover {
 	color: #fff;
 	border: 1px solid #fff;
 	background: transparent;
 }
-.banner::before{
+
+.banner::before {
 	position: absolute;
 	content: '';
-	width:100%;
+	width: 100%;
 	height: 100%;
 	left: 0;
 	top: 0;
 	background-color: #000000bd;
 }
+
 .rating_card {
-    text-align: center;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    height: 100%;
-    padding: 30px 10px;
-    border-radius: 5px;
+	text-align: center;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	height: 100%;
+	padding: 30px 10px;
+	border-radius: 5px;
 	background: #fff;
 }
+
 .rating_card .i_icon img {
-    width: 100%;
-    max-width: 60px;
-    margin-bottom: 16px;
+	width: 100%;
+	max-width: 60px;
+	margin-bottom: 16px;
 }
+
 .rating.section {
-    background: #0f1d29;
+	background: #0f1d29;
 }
 
 .fantasy_card {
-    text-align: center;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    height: 100%;
-    padding: 30px 10px;
-    border-radius: 5px;
-    background: #fff;
-    border-left: 3px solid #ffb900;
+	text-align: center;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	height: 100%;
+	padding: 30px 10px;
+	border-radius: 5px;
+	background: #fff;
+	border-left: 3px solid #ffb900;
 }
+
 .fantasy_card img {
-    width: 100%;
-    max-width: 110px;
-    margin-bottom: 20px;
+	width: 100%;
+	max-width: 110px;
+	margin-bottom: 20px;
 }
+
 .rating_card_two h4 {
-    color: #fff;
+	color: #fff;
 }
+
 .rating_card_two {
-    display: flex;
-    background: #fff;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 15px;
-    border-radius: 5px;
+	display: flex;
+	background: #fff;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 15px;
+	border-radius: 5px;
 	height: 100%;
 }
+
 .rating_card_two h4 {
-    margin-bottom: 16px;
-    color: #000;
+	margin-bottom: 16px;
+	color: #000;
 }
+
 .rating_card_two img {
-    width: 100%;
-    max-width: 100px;
+	width: 100%;
+	max-width: 100px;
 }
+
 .rating_card_two .i_icon {
-    margin-left: 20px;
+	margin-left: 20px;
 }
-.rating_about{
-	background-color: whitesmoke!important;
+
+.rating_about {
+	background-color: whitesmoke !important;
 }
+
 .footer_wrapper {
-    background: #0f1d29;
-    color: #ffff;
+	background: #0f1d29;
+	color: #ffff;
 }
+
 .lower_footer {
-    border-top: 1px solid #ffffff87;
+	border-top: 1px solid #ffffff87;
 }
+
 .lower_footer p {
-    color: #fff;
+	color: #fff;
 }
-ul.ul_footer li a:hover
-{
+
+ul.ul_footer li a:hover {
 	color: #ffb900;
 }
+
 .playing_guide.section {
-    padding-top: 160px;
+	padding-top: 160px;
 	background: whitesmoke;
 	text-align: center;
 }
+
 .info_play.section {
-    text-align: center;
-    background: whitesmoke;
+	text-align: center;
+	background: whitesmoke;
 }
-.contact_form ::placeholder
-{
-	color:#ccc!important;
+
+.contact_form ::placeholder {
+	color: #ccc !important;
 }
-.contact_form .form-control
-{
+
+.contact_form .form-control {
 	color: #000;
 }
-.contact_form .get_app_btn:hover{
-border: 1px solid #000;
+
+.contact_form .get_app_btn:hover {
+	border: 1px solid #000;
 }
+
 .rating_card h4 {
-    position: relative;
+	position: relative;
 }
+
 .rating_card h4::before {
-    position: absolute;
-    content: '';
-    width: 100px;
-    height: 2px;
-    bottom: -5px;
-    background: #ffb900;
-    border-radius: 5px;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
+	position: absolute;
+	content: '';
+	width: 100px;
+	height: 2px;
+	bottom: -5px;
+	background: #ffb900;
+	border-radius: 5px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
 }
+
 .playing_guide.section h1 {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 form.form_banner .home_input {
-    padding: 15px 30px;
+	padding: 15px 30px;
 }
 
 .rating_card p {
-    font-size: 20px;
-    font-weight: 500;
-    margin-top: 10px;
-    transition: all .9s ease;
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 10px;
+	transition: all .9s ease;
 }
+
 .rating_card p:hover {
-    margin-top: 0;
+	margin-top: 0;
 }
 
 .play_inner_cls p {
-    padding-left: 30px;
+	padding-left: 30px;
 }
