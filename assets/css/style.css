@@ -388,7 +388,6 @@ form.form_banner .home_input {
 	position: relative;
 	z-index: 11;
 }
-
 .playing_guide.section.playing-bnr::after {
 	content: '';
 	position: absolute;
