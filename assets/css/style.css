@@ -388,6 +388,7 @@ form.form_banner .home_input {
 	position: relative;
 	z-index: 11;
 }
+
 .playing_guide.section.playing-bnr::after {
 	content: '';
 	position: absolute;
@@ -432,4 +433,8 @@ form.form_banner .home_input {
 
 .playing_guide.section.contact-bnr h1 {
 	color: #fff;
+}
+
+.mobile-view-design {
+	display: none;
 }

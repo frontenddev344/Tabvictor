@@ -1,8 +1,3 @@
-@media screen and (max-width:1199px) {
-
-}
-
-
 @media (max-width: 991px) {
 	.nav {
 		padding: 1rem;
@@ -68,13 +63,16 @@
 	header {
 		padding: 0px 0px;
 	}
+
 	.inner_banner {
 		left: 32%;
 	}
+
 	ul.ul_footer {
 		justify-content: center;
 		margin-top: 20px;
 	}
+
 	ul.ul_footer li a {
 		padding: 7px 0;
 		display: inline-block;
@@ -85,9 +83,9 @@
 @media (max-width: 767px) {
 	h2 {
 		font-size: 26px;
-		
+
 	}
-	
+
 
 	a.logo img {
 		max-width: 120px;
@@ -108,39 +106,175 @@
 	.inner_banner {
 		left: 43%;
 	}
+
 	.rating_card_two .i_icon {
 		margin-left: 0px;
 	}
+
 	.rating_card_two {
 		display: block;
 		text-align: center;
 	}
+
 	.rating_card_two img {
 		max-width: 80px;
 		margin-top: 15px;
 	}
+
 	.inner_banner h1 {
 		font-size: 32px;
 	}
 }
 
 @media (max-width: 575px) {
+	.desktop-version {
+		display: none;
+	}
+
+	.mobile-view-design {
+		display: block;
+		padding: 100px 0 0 0;
+	}
+
+	p.rating-text {
+		margin: 0 !important;
+	}
+
+	.main_box {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		align-items: center;
+	}
+
+	.start_line {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		padding: 1px 0;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+		background: #ffffff;
+		padding: 17px 0 0 0;
+	}
+
+	h6.heading_main {
+		font-size: 17px !important;
+		color: #ffb900;
+	}
+
+	h1.beste {
+		font-size: 26px !important;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.one_o a {
+		text-decoration: none;
+	}
+
+	.awesome a {
+		color: #fff;
+		font-size: 18px;
+		letter-spacing: 1px;
+		font-weight: 600;
+		text-transform: uppercase;
+		background: #ffb900;
+		padding: 11px;
+		text-align: center;
+		border-radius: 6px;
+		display: block;
+		margin: 25px 0;
+		text-decoration: none;
+	}
+
+	.main-rate-star {
+		display: flex;
+		text-align: center;
+		justify-content: center;
+	}
+
+	.warapper {
+		background: #d7d9db00;
+		padding: 20px;
+		border: 4px solid #ffb900;
+		border-radius: 6px;
+		margin: 20px 0;
+	}
+
+	.notpad {
+		border-left: 2px solid #ffb900;
+		border-right: 2px solid #ffb900;
+
+	}
+
+	p.rated-star {
+		color: #fdbb4f;
+		font-size: 13px;
+	}
+
+	.rate.notpad p,
+	p.rated-star {
+		padding-bottom: 0;
+	}
+
+
+	.notpad {
+		padding: 0 9px;
+	}
+
+	.text_auality {
+		text-align: center;
+	}
+
+	.beting_logo {
+		width: 50%;
+	}
+
+	.one_o {
+		width: 50%;
+	}
+
+	.beting_logo img {
+		width: 100%;
+		padding: 0 15px 0 0;
+		height: 130px;
+		object-fit: contain;
+	}
+
+
+	img[alt="playfina"] {
+		height: 85px;
+	}
+
+	img[alt="tokyo-wild"] {
+		height: 85px;
+	}
+
+	.text_auality {
+		padding: 22px 0 50px;
+	}
 
 	.inner_banner h1 span {
 		font-size: 20px;
 	}
+
 	.inner_banner h1 {
-		font-size:26px;
-		
+		font-size: 26px;
+
 	}
+
 	.inner_banner {
-		left:50%;
+		left: 50%;
 		width: 80%;
 	}
-	ul.ul_footer 
-	{
+
+	ul.ul_footer {
 		display: block;
 		padding-left: 0;
+	}
+
+	.one_o {
+		width: 50%;
 	}
 
 }
